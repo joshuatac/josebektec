@@ -381,6 +381,7 @@ tr, th {
     font-size: .8rem;
   }
   #single {
+    margin-top: 8rem !important;
     width: 90% !important;
     margin: auto !important;
   }
@@ -394,6 +395,7 @@ tr, th {
     font-size: .8rem;
   }
   #single {
+    margin-top: 8rem !important;
     width: 90% !important;
     margin: auto !important;
   }
