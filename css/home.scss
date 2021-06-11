@@ -339,6 +339,18 @@ align-items: center;
     }
 }
 
+@media (max-width:320px){
+    .imgText{
+        h2{
+            font-size: 1rem !important;
+        }
+    } 
+
+    .date{
+        font-size: .8rem;
+    }
+}
+
 
 @media  (max-width:750px){
     #nav-latest, #nav-search{
