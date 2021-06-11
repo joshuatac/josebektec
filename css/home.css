@@ -380,6 +380,10 @@ tr, th {
   .date {
     font-size: .8rem;
   }
+  #single {
+    width: 90% !important;
+    margin: auto !important;
+  }
 }
 
 @media (max-width: 750px) {
