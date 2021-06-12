@@ -131,7 +131,7 @@ color: #fff;
 
 .bodyNav .nav-link{
     padding: 0 .3rem !important;
-    font-size: .87rem;
+    font-size: 1rem;
     color: #590a5b;
 }
 
@@ -367,14 +367,19 @@ width: 100%;
 
 
 
-
+.forumWrapper{
+    box-shadow: 2px 0px 3px 2px gray;
+}
 
 .forumTitle{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 2rem;
     img{
-        margin-right: .5rem;
+        margin-top: 1rem;
+        margin-left: .4rem;
+        margin-right: .6rem;
         width: 4rem;
         height: 4rem;
         border-radius: 50%;
@@ -383,6 +388,7 @@ width: 100%;
 
     h4{
         a{
+            font-weight: bold !important;
             text-decoration: none;
             color: #3a383a;
             font-weight: 400;
@@ -398,6 +404,8 @@ width: 100%;
 }
 
 .forumInfo{
+display: flex !important;
+flex-direction: column;
     text-transform: capitalize;
     margin-left: 7%;
     color: gray;
@@ -413,6 +421,8 @@ width: 100%;
 
 
 .forumDesc{
+    width: 90%;
+    margin:auto; 
     margin-top: 1em;
     p{
         text-align: justify;
@@ -425,7 +435,58 @@ width: 100%;
     }
 }
 
+
+.userHome{
+    ul{
+        list-style: none;
+        li{
+            margin-top: 1rem;
+            i{
+                margin-right: .5rem;
+            }
+            a{
+                text-decoration: none;
+                text-transform: capitalize;
+                color: #3a383a;
+            }
+        }
+    }
+}
+
+.displayFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonPlus{
+    button{
+        background: transparent;
+        border: none;
+        font-size: 1rem;
+    }
+
+    button:hover{
+        color: #590a5b;
+        font-weight: bold;
+    }
+}
+
+
+.mobileAdd{
+    display: none;
+}
+
+
+
 @media (max-width:470px){
+
+    .mobileAdd{
+        display: block;
+    }
+   .desktopAdd{
+        display: none;
+    }
     .forumTitle{
         img{
             width: 3rem;
