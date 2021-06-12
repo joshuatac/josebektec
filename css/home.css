@@ -443,6 +443,21 @@ tr, th {
   font-weight: bold;
 }
 
+.forumDesc {
+  margin-top: 1em;
+}
+
+.forumDesc p {
+  text-align: justify;
+}
+
+.forumDesc p a {
+  text-decoration: none;
+  color: #590a5b;
+  font-weight: bold;
+  font-style: italic;
+}
+
 @media (max-width: 470px) {
   .forumTitle img {
     width: 3rem;
