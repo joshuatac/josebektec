@@ -378,7 +378,7 @@ tr, th {
 
 @media (max-width: 320px) {
   .imgText h2 {
-    font-size: 1rem !important;
+    font-size: 1vw !important;
   }
   .date {
     font-size: .8rem;
@@ -452,8 +452,8 @@ tr, th {
     font-size: .9rem !important;
   }
   .forumInfo {
-    font-weight: bold;
-    font-size: .7rem;
+    width: 90% !important;
+    font-size: 1rem;
   }
   .forumInfo a:hover {
     font-weight: 100;

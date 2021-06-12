@@ -4,7 +4,6 @@
 }
 
 
-
 h1,
 h2,
 h3,
@@ -344,7 +343,7 @@ width: 100%;
 @media (max-width:320px){
     .imgText{
         h2{
-            font-size: 1rem !important;
+            font-size: 1vw !important;
         }
     } 
 
@@ -429,8 +428,9 @@ width: 100%;
     }
 
     .forumInfo{
-font-weight: bold;
-        font-size: .7rem;
+        width: 90% !important;
+
+        font-size: 1rem;
 
         a:hover{
             font-weight: 100;
