@@ -6,58 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JosebekTech | No 1 Tech Website</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css">
   </head>
-  <body id="login">
-    <div class="header">
-        <div class="logo"><h1>JosebekTech</h1></div>
-    </div>
-  <div class="regWrapper">
-      <h1>Register</h1>
-<form action="">
-      <div class="form-group regForm">
-          <label for="email">First Name</label>
-          <input type="text" class="form-control" name="" id="" placeholder="Enter Email Or Phone Number">
-      </div>
+  <body id="register">
 
-      <div class="form-group regForm">
-        <label for="email">Last Name</label>
-        <input type="text" class="form-control" name="" id="" placeholder="Enter Email Or Phone Number">
-    </div>
+<div class="wrapper">
+    <section class="form signup">
+        <header>Register</header>
 
-    <div class="form-group regForm">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" name="" id="" placeholder="Enter Email Or Phone Number">
-    </div>
+   <form action="#" method="POST">
 
-      <div class="form-group regForm">
-          <label for="email">Password</label>
-        <input type="Password" class="form-control" name="" id="" placeholder="Enter Passowrd">
-    </div>
+           <div class="field input">
+               <label>First Name</label>
+               <input type="text" name="fname" placeholder="Enter First Name" >
+           </div>
+           <div class="field input">
+               <label>Last Name</label>
+               <input type="text" name="lname" placeholder="Enter Last Name" >
+    
+        </div>
+           <div class="field input">
+               <label>Email</label>
+               <input type="text" name="email" placeholder="Enter Email" >
+           </div>
 
-    <div class="form-group regForm">
-        <label for="passowrd">Confrim Password</label>
-      <input type="password" class="form-control" name="" id="" placeholder="Confirm Passowrd">
-  </div>
+           <div class="field input">
+               <label>Username</label>
+               <input type="text" name="username" placeholder="Enter Email" >
+           </div>
 
-    <div class="form-group regForm">
-        <input type="submit" class="form-control btn-primary" value="Register">
-    </div>
+           <div class="field input">
+               <label>Password</label>
+               <input type="password" name="password" placeholder="Enter New Password" >
+               <i class="fa fa-eye"></i>
+           </div>
 
-    <h5 class="terms">By signing up you accept our terms and conditions
-        & privacy policy</h5>
+           <div class="field input">
+               <label>Confirm Password</label>
+               <input type="password" name="cpassword" placeholder="Enter New Password" >
+               <i class="fa fa-eye"></i>
+           </div>
 
-    <p class="mt-2">already have an account?</p>
+    
 
-    <div class="form-group Reg">
-      <a type="submit" href="login.html" class="form-control btn-secondary">Login</a>
-  </div> 
-  </form>
+           <div class="field button">
+               <input type="submit" name="register-btn" value="register">
+           </div>
+   </form>
+   
+   <div class="link">Already signed up? <a href="login.php">Login now</a></div>
+   
+    </section>
 </div>
-
 
 <div class="footer">
   <a href="login.html">login</a>   &nbsp;  <a href="register.html">Register</a> &nbsp;
   <a href="single.html">single</a> &nbsp;  <a href="success.html">success</a>  
 </div>
+
+
+<script src="js/main.js"></script>
 </body>
 </html>
